@@ -12,7 +12,7 @@
 \RequirePackage[parfill]{parskip}
 
 % Set margin width
-\RequirePackage[hmargin=1.25cm,vmargin=0.75cm]{geometry}
+\RequirePackage[hmargin=0.75cm,vmargin=0.75cm]{geometry}
 
 % Use cool fonts
 \RequirePackage{fontspec}
