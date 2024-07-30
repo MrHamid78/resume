@@ -143,10 +143,10 @@
 % Renew subsection command for resume subsections
 % All arguments are compulsory
 % #1: Name, #2: Description, #3: Time Period, #4: Location
-\renewenvironment{subsection}[4]{
+\renewenvironment{subsection}[5]{
     \phantomsection
     \addcontentsline{toc}{subsection}{#1}
-    \textbf{#1} \hfill \textit{#3} \newline
+    \textbf{#1} \textit{#5}\hfill \textit{#3} \newline
     \textit{#2} \hfill \textit{#4}
     \smallskip
     \begin{list}{$\vbullet$}{
